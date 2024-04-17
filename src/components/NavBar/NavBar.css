@@ -1,0 +1,60 @@
+/* NavBar.css */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navButtons {
+    display: flex;
+    flex: 30% 0 0;
+    gap: 1rem;
+}
+
+
+.navButtons button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.navButtons button:hover {
+    background-color: #0056b3;
+}
+
+.loginButton {
+    background-color: white !important;
+    color: #007bff !important;
+}
+.loginButton:hover {
+    background-color: #007bff !important;
+    color:  white!important;
+}
+.navLogo {
+    flex: 0 40% 0;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.navLogo h1, .navLogo h3 {
+    margin: 0;
+    font-weight: normal;
+}
+
+.navLogo h1 b {
+    color: #4285f4;
+}
+
+.navSave {
+    flex: 0 0 30%;
+    font-size: 1.2rem;
+    color: #555;
+    text-align: right;
+}
